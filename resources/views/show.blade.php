@@ -28,7 +28,7 @@
 
 
 <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
-    <a class="btn-floating btn-large red">
+    <a href="{{ url('add') }}" class="btn-floating btn-large red">
       <i class="large material-icons">add</i>
     </a>
   </div>
