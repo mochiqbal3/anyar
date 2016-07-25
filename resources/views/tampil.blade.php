@@ -31,7 +31,7 @@
 			<h5>{{ $tampilkan->judul }}</h5>
 
             <div class="divider"></div>
-            <img src="{{ ('image/'.$tampilkan->gambar)  }}" style="max-height:200px;max-width:200px;margin-top:10px;">
+            <img src="{{ asset('image/'.$tampilkan->gambar)  }}" style="max-height:200px;max-width:200px;margin-top:10px;">
             <p>{!! $tampilkan->isi !!}</p>
                 
 		</div>
