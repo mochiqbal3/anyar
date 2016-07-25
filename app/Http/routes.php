@@ -18,3 +18,4 @@ Route::get('/read/{id}', 'CrudController@show');
 Route::get('/edit/{id}', 'CrudController@edit');
 Route::post('/update/{id}', 'CrudController@update');
 Route::get('/delete/{id}', 'CrudController@destroy');
+Route::get('query', 'CariController@search');
