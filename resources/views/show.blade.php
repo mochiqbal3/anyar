@@ -20,6 +20,7 @@
     <div class="row">
         <div class="col s12">
             <h5>{{ $data->judul }}</h5>
+            <h5> Coba aja</h5>
 
             <div class="divider"></div>
             <p>{!!substr($data->isi,0,200)!!}...</p>
